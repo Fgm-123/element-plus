@@ -39,7 +39,7 @@ const decrease = () => {
   }
 }
 onMounted(() => {
-  setInterval(() => {
+  setTimeout(() => {
     percentage2.value = (percentage2.value % 100) + 10
   }, 500)
 })
